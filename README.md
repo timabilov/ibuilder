@@ -1,6 +1,15 @@
 # ibuilder
 Mini framework for building customizable command-line interface
 
+```xml
+<dependency>
+    <groupId>com.github.timabilov</groupId>
+    <artifactId>ibuilder</artifactId>
+    <version>1.0.0</version>
+</dependency>
+```
+
+
 Each section (and following sections) consists from `Loop`. You can create your app from with integrating loops with each other(building loops).
 with Java > 1.8 it should be more easy and friendly.
 
@@ -49,7 +58,7 @@ type>
 
 ```
 `Loop` itself can be used instead of `CommandCallback`.  
-You can nest loop with each other wherever and however you want:
+You can nest loops with each other wherever and however you want:
 
 ```
          Loop.create()
