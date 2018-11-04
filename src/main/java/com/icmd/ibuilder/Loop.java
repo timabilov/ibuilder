@@ -466,7 +466,7 @@ public class Loop implements CommandCallback{
 
 
     public String renderItem(Command c, String indentation, int index){
-
+        // FIXME indentation and index is not part of item?
         return "-" + indentation + index + ". " + c.renderCommand(indentation, index);
     }
 
