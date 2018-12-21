@@ -10,8 +10,8 @@ Mini framework for building customizable command-line interface
 ```
 
 
-Each section (and following sections) consists from `Loop`. You can create your app from with integrating loops with each other(building loops).
-with Java > 1.8 it should be more easy and friendly.
+Each program section (and following sections) consists from `Loop`. You can create your app from integrated (with each other) loops.
+with Java => 1.8 it should be more comfortable to use.
 
 ```java
 public class MyApplication {
